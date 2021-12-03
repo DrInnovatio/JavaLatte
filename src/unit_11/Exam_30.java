@@ -6,7 +6,6 @@ class Exam_30_sub extends Frame{
 
     private FileDialog fd = new FileDialog(this, "Open my folder", FileDialog.LOAD);
 
-
     public Exam_30_sub(){
         super("Text AREA");
         this.init();
@@ -18,7 +17,6 @@ class Exam_30_sub extends Frame{
     }
 
     public void init(){
-
         fd.setVisible(true);
     }
 }
